@@ -1,0 +1,154 @@
+/* {@import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css")
+} */
+#home{
+   background-image: url("bg.png");
+  background-color:#E2BCB7;   /**#FFBCBC #AAD8D3 **/
+   background-blend-mode:lighten;
+   padding: 2%;
+  }
+
+.title-column{
+  text-align: center;
+  padding-left: 10%;
+    padding-right: 10%;
+  font-size: 200%;
+  padding-bottom: 7%;
+}
+
+.nav-dimension{
+  padding: 3% 5%;
+}
+.navbar-brand{
+  margin-left: 0%;
+}
+h1{
+  font-family: 'Mulish', sans-serif;
+  color:#54436B;   /* #278EA5 #B83B5E**/
+  font-size: 280%;
+  margin: 5% 10%;
+}
+h2{
+  padding:10%;
+    font-size: 250%;
+    color: #278EA5;
+}
+h3{
+  /**font-family: 'Yomogi', cursive;**/
+  color:#FF616D;  /* #278EA5 #B83B5E**/
+  font-size:10rem;
+}
+h5{
+  color:#278EA5;
+}
+.info-head{
+  color: #CE97B0;
+  padding: 3% 3%;
+}
+.ta-c{
+  text-align: center;
+  color:#FF616D;
+}
+.rules{
+    color:#278EA5;
+}
+
+#info{
+  padding:2% 15%;
+  background-color: #FFF;
+  position: relative;
+  z-index:2;
+}
+#rules{
+  padding:2% 15%;
+  background-color: #FFF;
+  position: relative;
+  z-index:2;
+}
+.starticon{
+  width: 40%;
+  padding: 3%;
+  border-radius: 100%;
+}
+.button-adjust{
+  width: 20%;
+}
+.adjust{
+  margin-left: 28%;
+}
+.nav-link{
+  font-size:110%;
+}
+.nav-support{
+  padding: 5%;
+}
+
+/***Content**/
+.button-content{
+  color: #FFF;
+  width: 20%;
+  font-weight: bolder;
+  height: 10%;
+}
+.apple{
+  padding: 4%;
+}
+.img-home{
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  border-radius: 100%;
+  Width:50%;
+  margin-left: 20%;
+  margin-bottom: 4%;
+}
+.exitimg{
+  width: 35%;
+}
+
+
+@media (max-width:1024px){
+  body{
+    align-items:center;
+  }
+  #home{
+    background-image: url("bg.png");
+    background-color:#E2BCB7;
+     background-blend-mode: lighten;
+  }
+  .navbar-brand{
+    margin-left: -50%;
+  }
+  /***Content**/
+  .button-content{
+    color: #FFF;
+    width: 30%;
+    font-weight: bolder;
+    height: auto;
+
+  }
+  .img-home{
+    position: static;
+    z-index: 1;
+    border-radius: 100%;
+    Width:60%;
+
+  }
+  .containerfluid{
+   display: block;
+  }
+
+  .starticon{
+    width: 50%;
+    padding: 3%;
+    border-radius: 100%;
+  }
+  .exitimg{
+    width: 50%;
+  }
+  #info{
+    background-color: #FFF;
+
+    position: relative;
+    z-index:2;
+  }
+}
